@@ -1,0 +1,61 @@
+.job-container {
+  background: #ffffff;
+  box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  margin-bottom: 32px;
+  display: flex;
+  padding: 2% 3%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  color: #334680;
+}
+.logo-container {
+  width: 15%;
+  /* height: 80px; */
+}
+.job-details-container {
+  width: 85%;
+  padding: 0 12px;
+}
+.company-name {
+  font-weight: bold;
+  font-size: 12px;
+}
+.job-posting {
+  font-size: 18px;
+  padding: 12px 0;
+}
+.full-time-btn {
+  border: 1px solid #334680;
+  background-color: transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #334680;
+  border-radius: 4px;
+  min-width: 63px;
+  min-height: 26px;
+}
+.placeholder-for-btn {
+  min-height: 26px;
+}
+.place-date-container {
+  font-weight: 500;
+  font-size: 12px;
+  color: #b7bcce;
+  display: flex;
+  justify-content: right;
+  gap: 5px;
+}
+.material-icon-container {
+  display: flex;
+  gap: 5px;
+}
+.material-icons {
+  font-size: 18px;
+}
+.label {
+  align-self: center;
+}
