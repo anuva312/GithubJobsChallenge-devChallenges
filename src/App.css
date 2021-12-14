@@ -1,38 +1,66 @@
 .App {
-  text-align: center;
+  margin: 2% 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.header {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 24px;
+  color: #282538;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.bold {
+  font-weight: bold;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+img {
+  width: 100%;
+  height: 100%;
+}
+
+/* Home Page Styles */
+
+.banner {
+  background: url("./images/reaching-for-the-sky.jpg");
+  border-radius: 8px;
+  width: 100%;
+  height: 138px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 32px 0;
+}
+
+/* Main Content */
+
+.main-content {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.sidebar {
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #334680;
+  width: 30%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.checkbox-container {
+  color: #334680;
+  display: flex;
+  width: max-content;
+}
+
+.checkbox {
+  width: 18px;
+  height: 18px;
+  margin-right: 12px;
+  color: #b9bdcf;
+}
+
+.label {
+  align-self: center;
+}
+.job-cards-list {
+  width: 70%;
 }
