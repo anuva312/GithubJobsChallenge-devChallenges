@@ -18,6 +18,26 @@ img {
   height: 100%;
 }
 
+a {
+  text-decoration: "none";
+}
+
+.material-icon-container {
+  display: flex;
+  gap: 5px;
+}
+.material-icons {
+  font-size: 18px;
+}
+.label {
+  align-self: center;
+}
+
+.flex {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
 /* Home Page Styles */
 
 .banner {
@@ -43,6 +63,7 @@ img {
   font-size: 14px;
   color: #334680;
   width: 30%;
+  margin-right: 50px;
 }
 
 .checkbox-container {
@@ -58,9 +79,73 @@ img {
   color: #b9bdcf;
 }
 
-.label {
-  align-self: center;
-}
 .job-cards-list {
   width: 70%;
+}
+
+/* End of Home Page Styles */
+
+/* Job Page Styles */
+.back-btn-container {
+  margin: 33px 0 36px;
+  display: flex;
+  gap: 8px;
+}
+
+.how-to-apply {
+  text-transform: uppercase;
+  color: #b9bdcf;
+}
+
+.email-desc {
+  margin-top: 16px;
+  color: #334680;
+}
+
+.links {
+  color: #1e86ff;
+}
+
+.job-contents {
+  margin-top: 33px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  color: #334680;
+}
+
+.job-title {
+  font-weight: bold;
+  font-size: 24px;
+}
+.full-time-btn {
+  border: 1px solid #334680;
+  background-color: transparent;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 12px;
+  color: #334680;
+  border-radius: 4px;
+  min-width: 63px;
+  height: 26px;
+}
+.place-container,
+.date-container {
+  font-weight: 500;
+  font-size: 12px;
+  color: #b7bcce;
+  margin-top: 10px;
+}
+.company-details {
+  margin: 32px 0px;
+}
+.company-logo {
+  width: 42px;
+}
+.company-name {
+  font-weight: bold;
+  font-size: 18px;
+  color: #334680;
 }
