@@ -86,11 +86,12 @@ function App() {
   };
 
   const handleClickSearch = function () {
-    if (search.__isNew__) {
-      setSearchKeyword({ key: "keywords", value: search.value });
-    } else {
-      setSearchKeyword({ key: search.label, value: search.value });
-    }
+    if (search)
+      if (search.__isNew__) {
+        setSearchKeyword({ key: "keywords", value: search.value });
+      } else {
+        setSearchKeyword({ key: search.label, value: search.value });
+      }
   };
 
   const handleOnChangeSearch = function (e) {
