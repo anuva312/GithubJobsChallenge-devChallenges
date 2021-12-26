@@ -29,7 +29,7 @@ function App() {
   const [titles, setTitles] = useState([]);
   const [search, setSearch] = useState();
   const [groupedOptions, setGroupedOptions] = useState();
-  const [selectedFilter, setSelectedFilter] = useState({});
+  const [selectedFilter, setSelectedFilter] = useState();
   const [searchKeyword, setSearchKeyword] = useState({});
   const jobsList = getJobs();
 
@@ -105,7 +105,7 @@ function App() {
         );
       }
     }
-    if (selectedFilter.label) {
+    if (selectedFilter?.label) {
       _jobData = _jobData.filter(
         (job) => job[selectedFilter.type] === selectedFilter.value
       );
