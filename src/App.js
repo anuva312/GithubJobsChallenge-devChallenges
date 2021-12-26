@@ -68,6 +68,7 @@ function App() {
       type: "country",
     }));
     setTitles(_titles);
+    setSelectedFilter(cityOptions[0]);
     setGroupedOptions([
       {
         label: "City",
@@ -151,10 +152,12 @@ function App() {
 
   return (
     <div className="App">
-      <header className="header">
-        <span className="bold">Github</span>
-        <span> Jobs</span>
-      </header>
+      <Link to={`/`} style={{ textDecoration: "none" }}>
+        <header className="header">
+          <span className="bold header-items">Github</span>
+          <span className="header-items"> Jobs</span>
+        </header>
+      </Link>
       <div className="banner">
         <div className="search-container">
           <CreatableSelect
@@ -207,6 +210,7 @@ function App() {
               name="search-keyword"
               options={groupedOptions}
               placeholder="City, zip code or country"
+              value={selectedFilter}
             ></Select>
           </div>
         </div>
