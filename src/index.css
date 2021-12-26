@@ -3,3 +3,21 @@ body {
   max-width: 1400px;
   background-color: #f6f7fb;
 }
+
+.footer {
+  font-family: Poppins;
+  font-style: normal;
+  font-size: 14px;
+  width: 100%;
+  background-color: #f6f7fb;
+  padding: 2px 0;
+  color: #a09fb1;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+}
+.footer > a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: inherit;
+}
