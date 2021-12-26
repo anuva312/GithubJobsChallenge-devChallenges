@@ -22,6 +22,10 @@ a {
   text-decoration: "none";
 }
 
+.hide {
+  display: none;
+}
+
 .material-icon-container {
   display: flex;
   gap: 5px;
@@ -38,6 +42,15 @@ a {
   gap: 15px;
   align-items: center;
 }
+
+.select-box {
+  min-width: 60%;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+}
+
 /* Home Page Styles */
 
 .banner {
@@ -48,6 +61,39 @@ a {
   background-repeat: no-repeat;
   background-size: cover;
   margin: 32px 0;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-container {
+  position: absolute;
+  background: #ffffff;
+  box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+  height: 55px;
+  width: 80%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* gap: 20px; */
+  margin: auto;
+  padding: 5px;
+}
+
+.search-button {
+  width: 23%;
+  max-width: 146px;
+  height: 47px;
+  background: #1e86ff;
+  border: none;
+  border-radius: 4px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  color: #ffffff;
 }
 
 /* Main Content */
@@ -56,6 +102,7 @@ a {
   display: flex;
 }
 
+/* Sidebar */
 .sidebar {
   font-family: Poppins;
   font-style: normal;
@@ -65,22 +112,47 @@ a {
   width: 30%;
   margin-right: 50px;
 }
-
 .checkbox-container {
   color: #334680;
   display: flex;
   width: max-content;
 }
-
 .checkbox {
   width: 18px;
   height: 18px;
   margin-right: 12px;
   color: #b9bdcf;
 }
+.search-location-container {
+  margin-top: 30px;
+  font-family: Poppins;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  color: #334680;
+}
+.search-location-heading {
+  font-weight: bold;
+  color: #b9bdcf;
+}
+.search-location-type {
+  font-weight: bold;
+}
+/* End of Sidebar */
 
 .job-cards-list {
   width: 70%;
+}
+.placeholder-job-cards {
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #334680;
 }
 
 /* End of Home Page Styles */
