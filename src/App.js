@@ -67,7 +67,6 @@ function App() {
       value: option,
       type: "country",
     }));
-    console.log(_jobs);
     setTitles(_titles);
     setGroupedOptions([
       {
@@ -127,12 +126,10 @@ function App() {
   };
 
   const handleOnChangeSearch = function (option) {
-    console.log("Inside OnChange", option);
     setSearch(option);
   };
 
   const handleOnChangeFilter = function (option) {
-    console.log("Inside OnChange", option);
     setSelectedFilter(option);
   };
 
