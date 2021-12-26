@@ -1,31 +1,25 @@
 .App {
   margin: 2% 5%;
 }
-
 .header {
   font-family: Poppins;
   font-style: normal;
   font-size: 24px;
   color: #282538;
 }
-
 .bold {
   font-weight: bold;
 }
-
 img {
   width: 100%;
   height: 100%;
 }
-
 a {
   text-decoration: "none";
 }
-
 .hide {
   display: none;
 }
-
 .material-icon-container {
   display: flex;
   gap: 5px;
@@ -36,13 +30,11 @@ a {
 .label {
   align-self: center;
 }
-
 .flex {
   display: flex;
   gap: 15px;
   align-items: center;
 }
-
 .select-box {
   min-width: 60%;
   font-family: Roboto;
@@ -52,7 +44,6 @@ a {
 }
 
 /* Home Page Styles */
-
 .banner {
   background: url("./images/reaching-for-the-sky.jpg");
   border-radius: 8px;
@@ -66,7 +57,6 @@ a {
   justify-content: center;
   align-items: center;
 }
-
 .search-container {
   position: absolute;
   background: #ffffff;
@@ -80,7 +70,6 @@ a {
   margin: auto;
   padding: 5px;
 }
-
 .search-button {
   cursor: pointer;
   width: 23%;
@@ -96,13 +85,11 @@ a {
   color: #ffffff;
   transition: background 0.2s ease-in;
 }
-
 .search-button:hover {
   opacity: 0.8;
 }
 
 /* Main Content */
-
 .main-content {
   display: flex;
 }
@@ -129,7 +116,7 @@ a {
   color: #b9bdcf;
 }
 .search-location-container {
-  margin-top: 30px;
+  margin: 30px 0 50px;
 }
 .search-location-heading {
   font-family: Poppins;
@@ -148,7 +135,6 @@ a {
   width: 100%;
   padding: 5px;
 }
-
 /* End of Sidebar */
 
 .job-cards-list {
@@ -165,7 +151,6 @@ a {
   font-size: 18px;
   color: #334680;
 }
-
 /* End of Home Page Styles */
 
 /* Job Page Styles */
@@ -174,21 +159,17 @@ a {
   display: flex;
   gap: 8px;
 }
-
 .how-to-apply {
   text-transform: uppercase;
   color: #b9bdcf;
 }
-
 .email-desc {
   margin-top: 16px;
   color: #334680;
 }
-
 .links {
   color: #1e86ff;
 }
-
 .job-contents {
   margin-top: 33px;
   font-family: Roboto;
@@ -197,7 +178,6 @@ a {
   font-size: 16px;
   color: #334680;
 }
-
 .job-title {
   font-weight: bold;
   font-size: 24px;
@@ -231,4 +211,24 @@ a {
   font-weight: bold;
   font-size: 18px;
   color: #334680;
+}
+.job-description {
+  white-space: pre-wrap;
+}
+/* End of Job Page Styles */
+
+/* Responsiveness */
+@media screen and (max-width: 768px) {
+  .main-content {
+    flex-wrap: wrap;
+  }
+  .sidebar {
+    width: 100%;
+  }
+  .job-cards-list {
+    width: 100%;
+  }
+  .placeholder-job-cards {
+    width: 100%;
+  }
 }
