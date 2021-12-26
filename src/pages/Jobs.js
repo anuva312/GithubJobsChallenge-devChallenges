@@ -9,7 +9,6 @@ export default function Jobs() {
 
   useEffect(() => {
     setJobDetails(getJobById(searchParams.get("index")));
-    console.log(searchParams.get("index"));
   }, [searchParams]);
   return (
     <div className="App">
@@ -54,7 +53,10 @@ export default function Jobs() {
           </div>
           <div className="company-details flex">
             <div className="company-logo">
-              <img src={jobDetails?.companyLogo} alt="logo"></img>
+              <img
+                src={`${process.env.PUBLIC_URL}${jobDetails?.companyLogo}`}
+                alt="logo"
+              ></img>
             </div>
             <div className="company-place-name-container">
               <div className="company-name">{jobDetails?.companyName}</div>

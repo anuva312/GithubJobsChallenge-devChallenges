@@ -5,7 +5,10 @@ export default function JobCards({ jobDetails }) {
   return (
     <div className="job-container">
       <div className="logo-container">
-        <img src={jobDetails.companyLogo} alt="company-logo"></img>
+        <img
+          src={`${process.env.PUBLIC_URL}${jobDetails.companyLogo}`}
+          alt="company-logo"
+        ></img>
       </div>
       <div className="job-details-container">
         <div className="company-name">{jobDetails.companyName}</div>
