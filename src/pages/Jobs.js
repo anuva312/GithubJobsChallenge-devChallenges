@@ -12,10 +12,12 @@ export default function Jobs() {
   }, [searchParams]);
   return (
     <div className="App">
-      <header className="header">
-        <span className="bold">Github</span>
-        <span> Jobs</span>
-      </header>
+      <Link to={`/`} style={{ textDecoration: "none" }}>
+        <header className="header">
+          <span className="bold header-items">Github</span>
+          <span className="header-items"> Jobs</span>
+        </header>
+      </Link>
       <div className="main-content">
         <div className="sidebar">
           <Link to="/" style={{ textDecoration: "none" }}>
