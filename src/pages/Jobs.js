@@ -4,7 +4,7 @@ import { getJobById } from "../data";
 import "../App.css";
 
 export default function Jobs() {
-  const [searchParams, setSearchParams] = useSearchParams();
+  const [searchParams] = useSearchParams();
   const [jobDetails, setJobDetails] = useState();
 
   useEffect(() => {
