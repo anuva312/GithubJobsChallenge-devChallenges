@@ -1,6 +1,6 @@
 # Country
 
-Solution for the [Github Jobs Challenge](https://devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) from [Devchallenges.io](https://devchallenges.io).
+Solution for the [Github Jobs Challenge](https://legacy.devchallenges.io/challenges/TtUjDt19eIHxNQ4n5jps) from [Devchallenges.io](https://legacy.devchallenges.io).
 
 <!-- TABLE OF CONTENTS -->
 
